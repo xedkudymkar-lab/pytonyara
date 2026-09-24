@@ -1,0 +1,10 @@
+name=input("Введите свое имя: ")
+family=input("Введите свою фамилию: ")
+age=int(input("Введите возраст: "))
+city=input("Введите город: ")
+
+print("Визитная карточка")
+print("Имя: ", name)
+print("Фамилия: ", family)
+print("Возраст: ", age)
+print("Город: ", city)
