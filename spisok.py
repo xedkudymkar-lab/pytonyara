@@ -10,3 +10,12 @@ print("Список в обатном порядке:", list(reversed(nums)))
 print("Сортировка элементов списка по возрастанию:", sorted(nums))
 print("Сортировка элементов списка по убыванию:", sorted(nums, reverse=True))
 print("Исходный список:", nums)
+
+nech=[2*k+1 for k in range(10)]
+print("Нечетные числа от 1 до 20", nech)
+
+symbs=list("Прокуратура")
+print("Список из символос слова:", symbs)
+
+print("Четыре первых символа слова: ", symbs[:4])
+print("Остальные символы слова: ", symbs[4:])
