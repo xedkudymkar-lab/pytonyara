@@ -1,0 +1,13 @@
+name=input("Введите свое имя: ")
+seminame=input("Введите свою фамилию: ")
+age=int(input("Введите возраст в годах: "))
+city=input("Введите название города: ")
+special=input("Введите специальность: ")
+course=input("Введите номер курса: ")
+
+print("=======АНКЕТА=======")
+print("Фамилия: ", seminame)
+print("Имя: ", name)
+print("Возраст: ", age)
+print("Город: ", city)
+print("Курс: ", course)
